@@ -1,0 +1,21 @@
+p,h1,h6
+{
+	size: 100px;
+	color: white;
+	width: initial;
+	background: black;
+	margin: 20px;
+	float: left;
+	font-size: 70;
+}
+h6{
+	/*float: revert;*/
+}
+h1{
+	/*float: initial;*/
+}
+*{
+	background: yellow;
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdfon.ru%2Fwp-content%2Fuploads%2Fhdfon.ru-910967601.jpg&f=1&nofb=1&ipt=e741fd7dd255834b48d9d3dc3b50e9b6bd96075243352bcb0ddd714822c87605&ipo=images);
+	background-repeat: no-repeat;
+	background-position: right;
