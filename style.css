@@ -1,21 +1,44 @@
-p,h1,h6
-{
-	size: 100px;
-	color: white;
-	width: initial;
-	background: black;
-	margin: 20px;
-	float: left;
-	font-size: 70;
+
+/* latin */
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/handlee/v14/-F6xfjBsISg9aMakPm3wow.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-h6{
-	/*float: revert;*/
+.Предысловие,h1{
+	/*float: left;*/
+	text-align: left;
+	color: 0;
+	background: 0;
+	border: 1px black solid;
+	
 }
-h1{
-	/*float: initial;*/
+.quote{
+	text-align: left;
+
+	color: 0;
+	background: red;
+	  background: lime;
+
+	/*border: 1px black solid;*/
 }
+
 *{
-	background: yellow;
-	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdfon.ru%2Fwp-content%2Fuploads%2Fhdfon.ru-910967601.jpg&f=1&nofb=1&ipt=e741fd7dd255834b48d9d3dc3b50e9b6bd96075243352bcb0ddd714822c87605&ipo=images);
-	background-repeat: no-repeat;
-	background-position: right;
+	/*text-align: center;*/
+	color: black;
+	background-color: lightblue;
+	text-align: center;
+}
+.progress_bar{
+	color: blue;
+	border: 1px black solid;
+	text-align: left;
+	text-align-last: left;
+}
+.Big_boss{
+	color: yellow;
+	font-size: 60px;
+	margin: 0px;
+}
