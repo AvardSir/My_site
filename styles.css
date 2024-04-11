@@ -1,7 +1,8 @@
-p{
-    color: red;
-    font-size: 2.2em;
+body{
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
-p:hover{
-    color: black;
+p {
+  /* Комментарий 
+font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;*/
+  font-size:  x-large;
 }
